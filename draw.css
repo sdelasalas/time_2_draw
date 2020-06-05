@@ -1,0 +1,17 @@
+body{
+    background-color: red;
+    font-family: 'Fredericka the Great', cursive;
+}
+h1{
+    
+    color: greenyellow;
+
+
+}
+#display{
+    font-size: 40px;
+}
+
+#displayThree{
+    font-size: 40px;
+}
