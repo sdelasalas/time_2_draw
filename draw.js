@@ -13,9 +13,6 @@ var pick = document.getElementById("display");
 pick.innerHTML = "Time to Draw says: " + Chooser();
 }
 
-
-
-
 //create option to put three catagories together, without repeating on in any randomization
 //create an array to store the random activity and then display to the user. 
 function threePicker()
@@ -23,17 +20,21 @@ function threePicker()
     threeChoices = [];
     while(threeChoices.length <= 2){
         var randPick = Chooser();
-        if(!threeChoices.indexOf(randPick) > -1){
+        if(!threeChoices.includes(randPick)){
             threeChoices.push(randPick);
+            
         }
     }
-   
     return threeChoices;
 }  
 
 function clickThree() {
-    var pick = document.getElementById("displayThree");
-    pick.innerHTML = "Time to Draw says: " + ", " + threePicker();
+    var list = document.getElementById("displayThree");
+    var listItems = ""; //setting variable outside b/c forEach doesn't return anything, it just executes on each item on the list
+    threePicker().forEach(element => { listItems += `<li>${element}</li>` }
+    );
+    
+    list.innerHTML = listItems;
 }  
 
 
