@@ -1,17 +1,31 @@
 body{
-    background-color: red;
+    background-color: lightgray;
     font-family: 'Fredericka the Great', cursive;
+    text-align: center;
 }
 h1{
     
-    color: greenyellow;
+    color: black;
+    text-align: center;
+    font-size: 50px;
 
 
+}
+#displayThree {
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  font-size: 40px;
+}
+
+#picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 #display{
     font-size: 40px;
 }
 
-#displayThree{
-    font-size: 40px;
-}

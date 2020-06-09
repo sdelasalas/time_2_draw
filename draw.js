@@ -1,5 +1,5 @@
 //create array of drawing choices
-var choices = ["super_hero", "landscape", "self_portrait", "doodle", "still_life", "monster", "comic_book", "dragon", "city_scape", "a_bug", "a_bird", "big_animal", "small_animal", "human_figure", "random_design"];
+var choices = ["super_hero", "landscape", "self_portrait", "doodle", "still_life", "monster", "comic_book", "dragon", "city_scape", "bug", "bird", "big_animal", "small_animal", "human_figure", "random_design"];
 
 //have function randomly select a drawing option
 function Chooser(){
@@ -10,7 +10,7 @@ function Chooser(){
 //function to run the randomizer
 function Click() {
 var pick = document.getElementById("display");
-pick.innerHTML = "Time to Draw says: " + Chooser();
+pick.innerHTML = "How about a " + Chooser();
 }
 
 //create option to put three catagories together, without repeating on in any randomization
