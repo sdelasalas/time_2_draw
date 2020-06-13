@@ -10,17 +10,24 @@
 <body>
 <div class="page">
     <header>
-    <h1>Time to Draw</h1>
+        <h1>Time to Draw</h1>
+        <img id="picture" src="img/artSupplies.png">
     </header>
-    <img id="picture" src="img/artSupplies.png">
-    <h2>What should I draw?</h2>
-    <button onclick="Click()">Click for Inspiration</button>
-    <p id="display"></p>
-    <h2>Feeling really creative?  Try combining three ideas in one piece</h2>
     
-    <button id ="threeClick" onclick="clickThree()">Click for Three Ideas</button>
-    <ul id="displayThree"></ul>
-
+    
+    <div class = "top_part">
+    <h2>What should I draw?</h2>
+    <button class = "top_button" onclick="Click()">Click for Inspiration</button>
+    <p id="display"></p>
+    </div>
+    
+    <div class = "bottom_part">
+    <h2>Feeling really creative?</h2>  
+    <div>Try combining three ideas in one piece</div>
+    <br>
+    <button class="bottom_button" id ="threeClick" onclick="clickThree()">Click for Three Ideas</button>
+    <ul id="displayThree"><span></span></ul>
+    </div>
 </div>
 <script type="text/javascript" src="draw.js"></script>
 </body>

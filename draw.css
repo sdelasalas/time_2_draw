@@ -1,22 +1,20 @@
 body{
     background-color: lightgray;
     font-family: 'Fredericka the Great', cursive;
-    text-align: center;
 }
-h1{
-    
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+
+}
+
+h1{ 
     color: black;
     text-align: center;
     font-size: 50px;
-
-
-}
-#displayThree {
-display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  font-size: 40px;
 }
 
 #picture {
@@ -26,6 +24,38 @@ display: block;
   width: 50%;
 }
 #display{
-    font-size: 40px;
+  font-size: 30px;
+  align-self: center;
 }
+.top_part{
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  
+}
+.top_button {
+  text-align: center;
+}
+.bottom_part{
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  
+  
+}
+.bottom_button {
+  
+  text-align: center;
+  
+} 
+#displayThree {
+
+  font-size: 30px;
+  align-self: center;
+  margin-right: 350px;
+  margin-left: 350px;
+
+}
+
+
 
