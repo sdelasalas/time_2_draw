@@ -1,5 +1,5 @@
 //create array of drawing choices
-var choices = ["super_hero", "landscape", "self_portrait", "doodle", "still_life", "monster", "comic_book", "dragon", "city_scape", "bug", "bird", "big_animal", "small_animal", "human_figure", "random_design"];
+var choices = ["super_hero", "landscape", "self_portrait", "doodle", "still_life", "monster", "comic_book_panel", "dragon", "city_scape", "bug", "bird", "big_animal", "small_animal", "human_figure", "random_design"];
 
 //have function randomly select a drawing option
 function Chooser(){
